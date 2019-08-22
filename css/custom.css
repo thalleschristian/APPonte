@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(245, 244, 244);
+}
+
+li a {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px!important;
+}
+
+.btn-bordered {
+    border-radius: 95px 95px 95px 95px;
+    -moz-border-radius: 95px 95px 95px 95px;
+    -webkit-border-radius: 95px 95px 95px 95px;
+    border: 0px solid #000000;
+}
+
+button {
+    border-radius: 95px 95px 95px 95px;
+    -moz-border-radius: 95px 95px 95px 95px;
+    -webkit-border-radius: 95px 95px 95px 95px;
+    border: 0px solid #000000;
+    width: 200px;
+    height: 40px;
+    font-size: 10%;
+}
+
+h2 {
+    font-family: 'Archivo black', sans-serif;
+    font-size: 50px;
+    color: #464545;
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px!important;
+}
+
+p {
+    font-size: 17px!important;
+}
+
+hr {
+    width: 200px;
+    height: 2px;
+    background-color: #3b3b3b;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.login-section {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.img-section {
+    margin-top: 4%;
+    margin-left: -5%;
+}
+
+.subtitulo-section {
+    margin-top: 10%;
+}
+
+.t-menu {
+    font-family: 'Lato', sans-serif;
+    color: #464545!important;    
+}
+
+.bg-blue {
+    background-color: #46bdf5;
+}
+
+.bg-red {
+    background-image: url("../img/backgroundFlag.png");
+}
+
+.bg-city {
+    background-image: url("../img/cidade.png");
+    width: 12%;
+    height: 22%;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 69, 96);
+    padding: 20px 0;
+    align-items: center;
+    margin-bottom: 25px
+}
+
+.card-header-ye {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 181, 10);
+    padding: 20px 0;
+    align-items: center;
+    margin-bottom: 25px
+}
+
+.card-header-gr {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(45, 206, 31);
+    padding: 20px 0;
+    align-items: center;
+    margin-bottom: 25px
+}
+
+.bg-grey {
+    background-color: #474747;
+}
+
+.form hr {
+    width: 200px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: none;
+}
+
+op-paralax {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #707070;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 5px;
+}
+
+/*pacejs*/
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #14c6eb;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+
+
+/* label focus color */
+.input-field input:focus + label {
+    color: #ffffff !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #e47f3c !important;
+    box-shadow: 0 1px 0 0 #e47f3c !important
+  }  
